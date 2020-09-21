@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:400,500,600,700,800,900');
+
+* {margin: 0;	padding: 0;}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 400;
+	overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	text-transform: none;
+}
+h1{font-size:35px;}
+h2{font-size:24px;}
+h3{font-size:20px;}
+h4{ font-size: 18px;}
+h5{font-size: 16px;}
+p{font-size:14px;color:#666;}
+ul,li{list-style:none;}
+a, a:hover, a:active, a:focus {
+	outline: none;
+	border: none;	
+	text-decoration:none;
+}
+a {color:#303030;transition: all 0.3s ease 0s;}
+a:focus, a:hover {
+color:#148f77;
+-webkit-transition: all .3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.width-100 { width: 100%;}
+.contain{width:1280px; margin:0 auto;}
+.btn {
+  color: #111;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  margin-left: 10px;
+  text-align: center;
+  padding: 12px 35px;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 30px !important;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.btn:hover {
+  color: #ffffff;
+  -webkit-transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.fr{float:right;} .fl{float:left;} .center{text-align:center !important;}

@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond $1 !^(g5)/
+RewriteCond %{HTTP_HOST} ^(www.)?gaehwa.co.kr [NC]
+RewriteRule ^(.*)$ /g5/$1 [L]
